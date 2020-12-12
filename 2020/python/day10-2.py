@@ -10,7 +10,6 @@ steps[0] = 1
 steps[1] = 1
 steps[2] = 2
 i = 3
-print(len(adapters))
 while i < len(adapters):
     if adapters[i] - adapters[i-1] <= 3:
         steps[i] += steps[i-1]
